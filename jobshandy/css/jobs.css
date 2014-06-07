@@ -1,0 +1,263 @@
+/* Global CSS */
+.inputStyleIcon{
+	position: relative;
+}
+.inputStyleIcon.inputleft .form-control{
+	padding-left: 42.5px;
+}
+.inputStyleIcon.inputright .form-control{
+	padding-right: 42.5px;
+}
+.inputStyleIcon.inputleft .form-control-feedback,.inputStyleIcon.inputright .form-control-feedback  {
+	color: #3C763D;
+	display: block;
+	font-weight: 400;
+	height: 34px;
+	line-height: 34px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 34px;
+}
+.inputleft .form-control-feedback{
+	left: 0;
+}
+.inputright .form-control-feedback{
+	right: 0;
+}
+
+.ftre-style1-link{
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#6C6E7A), color-stop(0.47, #6C6E7A), color-stop(0.47, #626470), to(#626470));
+	background: -webkit-linear-gradient(#6C6E7A 0%, #6C6E7A 47%, #626470 47%, #626470 100%);
+	background: -webkit-gradient(linear, left top, left bottom, from(#6C6E7A), color-stop(47%, #6C6E7A), color-stop(47%, #626470), to(#626470 100%) repeat scroll 0 0 rgba(0, 0, 0,));
+	background: -webkit-linear-gradient(#6C6E7A 0%, #6C6E7A 47%, #626470 47%, #626470 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: linear-gradient(#6C6E7A 0%, #6C6E7A 47%, #626470 47%, #626470 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	color: #FFFFFF;
+	display: block;
+	font-size: 1.4em;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 40px;
+	position: relative;
+	padding: 0 60px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+.ftre-style1-link:hover,.ftre-style1-link:focus{
+	color: #8e9098;
+}
+.ftre-style1-link,.ftre-style1-link:hover,.ftre-style1-link:focus{
+	outline: none;
+	text-decoration: none;
+}
+.ftre-style1-link:before, .ftre-style1-link:after {
+	background: url(http://d2qcctj8epnr7y.cloudfront.net/images/jayson/ribbonEndBanner.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	content: " ";
+	display: block;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	width: 57px;
+}
+.ftre-style1-link:after {
+	background-position: right center;
+	right: 0;
+}
+.ftre-style1-link:before {
+	background-position: left center;
+	left: 0;
+}
+/* Index Second Level */
+.section-wrap-all{
+	position: relative;
+	background: #F0F0F0;
+}
+.wrap-scndLevel-2{
+	border-bottom: 2px solid #D4D4D4;
+	padding-bottom: 10px;
+	margin: 20px 0 40px;
+}
+
+/* Search Job Result */
+.wrap-SearchJobRslt{
+	position: relative;
+}
+
+/* Footer */
+.panel-footer {
+	font-size:11px;
+}
+.panel-footer .credits {
+	margin-left:15px;
+}
+
+/* ------------ Using Col-lg-6 ------------- */
+.wrapContFtr{
+	background:#FFFFFF;
+	border: 1px solid #C1CCD4;
+	border-radius: 4px;
+	padding: 0;
+	position: relative;
+	vertical-align: top;
+}
+.wrapContFtr > .ribbonS1 {
+	background: url(http://d2qcctj8epnr7y.cloudfront.net/images/jayson/joinUsribbonDiag.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	height: 77px;
+	position: absolute;
+	right: -5px;
+	top: -6px;
+	width: 76px;
+	z-index: 100;
+}
+.wrapContFtr > .ribbonS1 span {
+	display: none;
+}
+/* 2nd section of feature */
+.wrapContFtr > header {
+	border-bottom: 1px solid #EAEAEA;
+	margin: 0;
+	padding: 0;
+}
+.wrapContFtr > header .ftrHeader-link {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	display: block;
+	height: 75px;
+	padding: 20px 26px;
+	text-rendering: optimizelegibility;
+	-webkit-transition: all 0.2s ease-out 0s;
+	transition: all 0.2s ease-out 0s;
+}
+.wrapContFtr > header .ftrHeader-link:hover{
+	background: #eaeaea;
+	text-decoration: none;
+}
+.wrapContFtr > header .avatar {
+	display: inline-block;
+	float: left;
+	margin-right: 15px;
+}
+.wrapContFtr > header .avatar img {
+	border-radius: 4px;
+	display: block;
+	height: 39px;
+	width: 39px;
+}
+.wrapContFtr > header .tlteContent h2,.wrapContFtr > header .tlteContent h3{
+	margin: 0;
+}
+.wrapContFtr > header h2 {
+	color: #343131;
+	font-size: 1.8em;
+	line-height: normal;
+	margin-bottom: 3px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.wrapContFtr > header h3 {
+	color: #5D5D5D;
+	font-size: 1.2em;
+	line-height: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+/* 3rd section of feature */
+.wrapContFtr > .imgFtr {
+	height: 150px;
+	overflow: hidden;
+}
+/* 4th section of feature */
+.wrapContFtr > .contentDescFtrMain {
+	background: url(http://d2qcctj8epnr7y.cloudfront.net/images/jayson/texturePaper.jpg) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	-webkit-box-shadow: 0 0 2px 2px #FFFFFF inset;
+	box-shadow: 0 0 2px 2px #FFFFFF inset;
+	padding: 20px;
+}
+.wrapContFtr > .contentDescFtrMain .infoChild {
+	border-top: 1px solid #EAEAEA;
+	padding: 5px 0 15px;
+}
+.wrapContFtr > .contentDescFtrMain .infoChild h3 {
+	color: #5D5D5D;
+	display: block;
+	font-size: 1.1em;
+	font-weight: bold;
+	height: 17px;
+	line-height: 21px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.wrapContFtr > .contentDescFtrMain .infoChild li {
+	float: left;
+	font-size: 1.2em;
+	margin: 0 15px 5px 0;
+}
+.wrapContFtr > .contentDescFtrMain .infoChild li a {
+	color: #5D5D5D;
+}
+.wrapContFtr > .contentDescFtrMain .infoChild li a i, .wrapContFtr > .infoChild li a i:hover{
+	outline: medium none;
+	padding-left: 5px;
+	text-decoration: none;
+}
+.wrapContFtr > .contentDescFtrMain footer {
+	border-top: 1px solid #EAEAEA;
+	padding-top: 20px;
+}
+.wrapContFtr > .contentDescFtrMain footer .location {
+	background: url("https://d3levm2kxut31z.cloudfront.net/assets/team/pin-30751481d11a086afe302129212164ca.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+	color: #5D5D5D;
+	float: left;
+	font-family: "MuseoSans-700";
+	font-size: 1.1em;
+	line-height: 23px;
+	overflow: hidden;
+	padding-left: 25px;
+	text-overflow: ellipsis;
+	text-transform: uppercase;
+	white-space: nowrap;
+	width: 200px;
+}
+.wrapContFtr > .contentDescFtrMain footer .more-members {
+	background: none repeat scroll 0 0 #EAEAEA;
+	border: 1px solid #EAEAEA;
+	border-radius: 4px;
+	float: right;
+	font-size: 11px;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	width: 26px;
+}
+.wrapContFtr > .contentDescFtrMain footer .members {
+	float: right;
+	margin-right: 10px;
+	padding: 0;
+}
+.wrapContFtr > .contentDescFtrMain footer .members li {
+	float: left;
+	margin-left: 10px;
+}
+.wrapContFtr > .contentDescFtrMain footer .members li a {
+	border-radius: 4px;
+	display: block;
+	height: 26px;
+	overflow: hidden;
+	width: 26px;
+}
+.wrapContFtr > .contentDescFtrMain footer .members li a img {
+	height: 26px;
+	width: 26px;
+}
+.ftrsMarg{
+	margin-bottom: 20px;
+}
+.ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

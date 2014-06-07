@@ -1,0 +1,38 @@
+.partner-container{
+			background: url(http://luxurymiles.com/img/bg-socialholdings.jpg) repeat scroll;
+		}
+		.sub-container{
+			background: rgba(0,0,0,0.8);
+			padding: 50px 15px;
+			color: #fff;
+		}
+		.img-partner-logo{
+			display: inline-block;
+			width: 280px;
+		}
+		.blckbckgrnd{
+			background: rgba(0,0,0,0.5);
+			box-shadow: 0 0 3px #fff;
+			margin-bottom: 5px;
+			padding: 15px 0;
+		}
+		.link-p-n{
+			color: #FFFFFF;
+		    display: inline-block;
+		    font-size: 30px;
+		    line-height: normal;
+		}
+		.link-p-n:hover{
+			color: #999;
+		}
+		.link-p-n,.link-p-n:hover,.link-p-n:focus{
+			outline: none;
+			text-decoration: none;
+		}
+		.pn-logo{
+			margin-bottom: 10px;
+			display: block;
+		}
+		.marg{
+			margin-bottom: 10px;
+		}
